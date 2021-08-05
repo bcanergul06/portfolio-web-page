@@ -1,0 +1,87 @@
+#bg {
+  position: fixed; 
+  top: -5px; 
+  left: -5px; 
+  min-width: 100%;
+  min-height: 100%;
+
+}
+
+#text1 {
+
+position: absolute;
+width: 470px;
+height: 64px;
+left: 485px;
+top: 150px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 60px;
+line-height: 90px;
+
+color: #FFFFFF
+
+}
+
+#text2 {
+position: absolute;
+width: 695px;
+height: 53px;
+left:  450px;
+top: 250px;
+
+font-family: Montserrat;
+font-style: italic;
+font-weight: 500;
+font-size: 30px;
+line-height: 49px;
+color: #FFFFFF;
+}
+
+
+#twitter {
+position: fixed;
+width: 100px;
+top: 600px;
+left: 620px;
+
+}
+
+#github {
+position: fixed;
+width: 43px;
+top: 615px;
+left: 720px;
+
+}
+
+.twitter figure img {
+-webkit-filter: blur(0px);
+filter: blur(0px);
+
+
+}
+
+.twitter figure:hover img{
+-webkit-filter: blur 1px;
+filter: blur(2px);
+-webkit-transition: .3s ease-in-out;
+transition: .5s ease-in-out;
+
+}
+
+.github figure img {
+-webkit-filter: blur 0px;
+filter: blur(0px);
+
+}
+
+.github figure:hover img {
+-webkit-filter:  blur 2px;
+filter: blur(1px);
+-webkit-transition: .3s ease-in-out;
+transition: .5s ease-in-out;
+
+}
